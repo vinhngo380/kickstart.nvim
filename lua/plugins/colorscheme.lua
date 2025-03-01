@@ -53,5 +53,7 @@ return {
                 -- optional configuration here
             })
         end,
-    }
+    },
+    'loctvl842/monokai-pro.nvim',
+    'ofirgall/ofirkai.nvim',
 }
