@@ -185,6 +185,11 @@ return { -- LSP Configuration & Plugins
             },
           },
         },
+      ltex = {
+        settings = {
+          filetype = {'tex'},
+        }
+      },
       }
 
       -- Ensure the servers and tools above are installed

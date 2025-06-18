@@ -1,13 +1,15 @@
 --Custom keymaps
+--moving things up or down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+--autocenters on C-d or C-u
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
 vim.keymap.set('n', '<C-u>', '<C-u>zz')
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 --To override the buffer when pasting
 vim.keymap.set('x', '<leader>p', [["_dP]])
 --this dont work, maybe use lazygit.nvim
-vim.keymap.set('n', '<leader>gl', ':! lazygit<enter>')
+--vim.keymap.set('n', '<leader>gl', ':! lazygit<enter>')
 
 --from lazy.nvim
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
