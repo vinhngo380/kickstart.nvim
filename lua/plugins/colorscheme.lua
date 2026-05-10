@@ -26,13 +26,6 @@ return {
                 underline = false,
             })
         end
-
-        --init = function()
-        --    vim.cmd.colorscheme 'gruvbox'
-
-        --    -- You can configure highlights by doing something like:
-        --    vim.cmd.hi 'Comment gui=none'
-        --end
     },
     {
         "neanias/everforest-nvim",
@@ -43,7 +36,6 @@ return {
             require("everforest").setup({
                 -- background = "hard",
                 transparent_background_level = 2,
-                underline = false
             })
         end,
     },
@@ -55,7 +47,6 @@ return {
             })
         end,
     },
-    -- 'loctvl842/monokai-pro.nvim',
     "cpea2506/one_monokai.nvim",
     'navarasu/onedark.nvim',
 }
